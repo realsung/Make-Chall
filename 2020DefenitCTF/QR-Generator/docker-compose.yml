@@ -1,0 +1,8 @@
+version: '3.6'
+
+services:
+  prob:
+    build: .
+    container_name: QR-Generator
+    ports:
+      - "9000:9000"
