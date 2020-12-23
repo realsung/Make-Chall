@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+    escaperoom:
+      build: .
+      ports:
+          - "12345:12345"

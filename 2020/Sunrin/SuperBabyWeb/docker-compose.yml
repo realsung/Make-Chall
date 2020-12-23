@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+    ctf:
+      build: .
+      ports:
+        - "2581:2581"
